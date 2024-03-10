@@ -31,7 +31,7 @@ run-chroma: ## run chroma
 	@python ./src/starter-chroma.py
 
 activate-venv: ## activate-venv
-	@source ./.venv/bin/activate
+	source ./.venv/bin/activate
 
 deactivate-venv: ## deactivate-venv
-	@source ./.venv/bin/deactivate
+	source ./.venv/bin/deactivate
